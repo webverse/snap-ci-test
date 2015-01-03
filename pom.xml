@@ -20,4 +20,22 @@
         </dependency>
     </dependencies>
 
+
+    <distributionManagement>
+
+        <repository>
+            <id>nexus</id>
+            <name>releases</name>
+            <url>http://192.168.59.103:8086/nexus/content/repositories/releases</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>nexus</id>
+            <name>snapshots</name>
+            <url>http://192.168.59.103:8086/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+
+    </distributionManagement>
+
+
 </project>
